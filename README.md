@@ -1,4 +1,4 @@
-# vagrant texlive full
+# vagrant texlive full [![Build Status](https://travis-ci.org/javiercejudo/vagrant-texlive-full.svg?branch=master)](https://travis-ci.org/javiercejudo/vagrant-texlive-full)
 
 Vagrant setup for Ubuntu 14.10 + texlive-full
 
