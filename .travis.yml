@@ -1,9 +1,7 @@
 language: node_js
 node_js:
-- '0.10'
+- 'iojs'
 before_install:
 - sudo su -c ./setup.sh
 script:
 - ./test.sh
-after_success:
-- grunt aws_s3:pdf
