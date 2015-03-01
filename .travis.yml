@@ -2,8 +2,7 @@ language: node_js
 node_js:
 - '0.10'
 before_install:
-- sudo su
-- ./setup.sh
+- sudo su -c ./setup.sh
 script:
 - ./test.sh
 after_success:
